@@ -1,0 +1,407 @@
+
+
+
+body
+{
+    height: 869px;
+    
+}
+
+.triangle
+{
+	margin:50px auto;
+	width: 0;
+	height: 0;
+	border-left: 450px solid transparent;
+	border-right: 450px solid transparent;
+    border-bottom: 850px solid rgb(8, 253, 216);
+    margin-bottom:-200px;
+    position: relative;
+    left: 0%;
+}
+
+.vidacceuil
+{
+    opacity: 0.3;
+    height: 650px;
+    width: 300px;
+    position: absolute;
+    top:-520px;
+    left:15%;
+    
+}
+h2
+{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+
+}
+
+ /*Contact*/   
+.container
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact
+{
+    visibility: hidden;
+    position: relative;
+    top:-600px;
+    margin-right:-400px;
+}
+
+.contactelements
+{
+    position: absolute;
+    width: 400px;
+    left: 390px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-left: 20px;
+    bottom: -660px;
+}
+
+.map
+{  
+    position: absolute;
+    top:10px;
+    left:360px;
+}
+
+.signature
+{
+    top:620px;
+    position: absolute;
+    background-color: rgb(219, 219, 219);
+    width:2000px;
+    height: 180px;
+    opacity:0.5;
+}
+
+#sign
+{
+    
+    position: absolute;
+    text-align: right;
+    bottom:50px;
+    left:570px;
+}
+
+/*Apropos*/
+.apropos
+{
+    visibility: hidden;
+    position: relative;
+}
+
+.hondamoteur
+{
+    position: absolute;
+    bottom:250px;
+    right: 30%;
+}
+.sousmenu
+{
+    position: absolute;
+    top: 40%;
+    left:80%;
+    color:#FC7A10;
+}
+#sousmoteur:hover
+{
+    background-color:#FC7A10;
+    color: white;
+    cursor: pointer;
+}
+#sousperf:hover
+{
+    background-color:#FC7A10;
+    color: white;
+    cursor: pointer;
+}
+#soustrans:hover
+{
+    background-color:#FC7A10;
+    color: white;
+    cursor: pointer;
+}
+.tablemoteur
+{
+    visibility: hidden;
+    position: absolute;
+    right: 18%;
+    bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.tableperf
+{
+    visibility: hidden;
+    position: absolute;
+    right: 20%;
+    bottom: 55px;
+    font-family: 'Raleway', sans-serif;
+}
+.tabletrans
+{
+    visibility: hidden;
+    position: absolute;
+    right: 18%;
+    bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.tableau
+{
+    visibility: 'hidden';
+}
+
+/*Acceuil*/
+.acceuil
+{
+    visibility: visible;
+    position: relative;
+}
+
+h1
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0 auto;
+    bottom: 350px;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    font-size:75px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*border menu animation*/
+#apropos
+{
+    position: relative;
+}
+
+#apropos:before
+{
+    content:'';
+    position: absolute;
+    top:-2px;
+    left:-2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+
+}
+#apropos:hover:before
+{
+    animation: animate 1s linear forwards;
+}
+@keyframes animate
+{
+    0%
+    {
+        width:0;
+        height:0;
+        border-top-color:black;
+        border-right-color:transparent;
+        border-bottom-color:transparent;
+        border-left-color:transparent;
+    }
+    25%
+    {
+        width:100%;
+        height:0;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:transparent;
+        border-left-color:transparent;
+    }
+    50%
+    {
+        width:100%;
+        height:100%;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:transparent;
+        border-left-color:transparent;
+    }
+    75%
+    {
+        width:100%;
+        height:100%;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:black;
+        border-left-color:transparent;
+    }
+    100%
+    {
+        width:100%;
+        height:100%;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:black;
+        border-left-color:black;
+    }
+}
+
+#acceuil
+{
+    position: relative;
+}
+
+#acceuil:before
+{
+    content:'';
+    position: absolute;
+    top:-2px;
+    left:-2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+
+}
+#acceuil:hover:before
+{
+    animation: animate 1s linear forwards;
+}
+@keyframes animate
+{
+    0%
+    {
+        width:0;
+        height:0;
+        border-top-color:black;
+        border-right-color:transparent;
+        border-bottom-color:transparent;
+        border-left-color:transparent;
+    }
+    25%
+    {
+        width:100%;
+        height:0;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:transparent;
+        border-left-color:transparent;
+    }
+    50%
+    {
+        width:100%;
+        height:100%;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:transparent;
+        border-left-color:transparent;
+    }
+    75%
+    {
+        width:100%;
+        height:100%;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:black;
+        border-left-color:transparent;
+    }
+    100%
+    {
+        width:100%;
+        height:100%;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:black;
+        border-left-color:black;
+    }
+}
+
+#contact
+{
+    position: relative;
+}
+
+#contact:before
+{
+    content:'';
+    position: absolute;
+    top:-2px;
+    left:-2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+
+}
+#contact:hover:before
+{
+    animation: animate 1s linear forwards;
+}
+@keyframes animate
+{
+    0%
+    {
+        width:0;
+        height:0;
+        border-top-color:black;
+        border-right-color:transparent;
+        border-bottom-color:transparent;
+        border-left-color:transparent;
+    }
+    25%
+    {
+        width:100%;
+        height:0;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:transparent;
+        border-left-color:transparent;
+    }
+    50%
+    {
+        width:100%;
+        height:100%;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:transparent;
+        border-left-color:transparent;
+    }
+    75%
+    {
+        width:100%;
+        height:100%;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:black;
+        border-left-color:transparent;
+    }
+    100%
+    {
+        width:100%;
+        height:100%;
+        border-top-color:black;
+        border-right-color:black;
+        border-bottom-color:black;
+        border-left-color:black;
+    }
+}
+
+#allo
+{
+    visibility: hidden;
+}
